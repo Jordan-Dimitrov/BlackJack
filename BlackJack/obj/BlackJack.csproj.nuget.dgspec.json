@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dani\\source\\repos\\BlackJack\\BlackJack\\BlackJack.csproj": {}
+    "C:\\Users\\Dani\\Pictures\\Camera Roll\\BlackJack\\BlackJack\\BlackJack\\BlackJack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dani\\source\\repos\\BlackJack\\BlackJack\\BlackJack.csproj": {
+    "C:\\Users\\Dani\\Pictures\\Camera Roll\\BlackJack\\BlackJack\\BlackJack\\BlackJack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dani\\source\\repos\\BlackJack\\BlackJack\\BlackJack.csproj",
+        "projectUniqueName": "C:\\Users\\Dani\\Pictures\\Camera Roll\\BlackJack\\BlackJack\\BlackJack\\BlackJack.csproj",
         "projectName": "BlackJack",
-        "projectPath": "C:\\Users\\Dani\\source\\repos\\BlackJack\\BlackJack\\BlackJack.csproj",
+        "projectPath": "C:\\Users\\Dani\\Pictures\\Camera Roll\\BlackJack\\BlackJack\\BlackJack\\BlackJack.csproj",
         "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dani\\source\\repos\\BlackJack\\BlackJack\\obj\\",
+        "outputPath": "C:\\Users\\Dani\\Pictures\\Camera Roll\\BlackJack\\BlackJack\\BlackJack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config",

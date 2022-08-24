@@ -31,10 +31,11 @@ namespace BlackJack
             int yourAceCount = 0;
             string hidden = string.Empty;
             bool canHit = true;
+            int bet = 0;
             List<string> deck = new List<string>();
             BuildDeck(deck);
             Shuffle(deck);
-            StartGame(deck,dealerSum,hidden, dealerAceCount, yourSum, yourAceCount, canHit);
+            StartGame(deck,dealerSum,hidden, dealerAceCount, yourSum, yourAceCount, canHit,bet);
         }
         static void BuildDeck(List<string> deck)
         {
@@ -52,8 +53,28 @@ namespace BlackJack
         {
             deck.Shuffle();
         }
-        static void StartGame(List<string> deck, int dealerSum, string hidden, int dealerAceCount, int yourSum, int yourAceCount, bool canHit)
+        static void StartGame(List<string> deck, int dealerSum, string hidden, int dealerAceCount, int yourSum, int yourAceCount, bool canHit, int bet)
         {
+            Console.WriteLine("Enter a bet");
+            while (true)
+            {
+                try
+                {
+                    bet = int.Parse(Console.ReadLine());
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Enter a num!");
+                }
+                if (bet <= 0)
+                {
+                    Console.WriteLine("Enter more than 0!");
+                }
+                else
+                {
+                    break;
+                }
+            }
             hidden = deck.Last();
             deck.RemoveAt(deck.IndexOf(hidden));
             dealerSum += GetValue(hidden);
@@ -83,7 +104,7 @@ namespace BlackJack
                 }
                 if (command=="S")
                 {
-                    Stay(canHit, deck, hidden, yourSum, yourAceCount, dealerSum, dealerAceCount);
+                    Stay(canHit, deck, hidden, yourSum, yourAceCount, dealerSum, dealerAceCount,bet);
                 }
             }
         }
@@ -126,7 +147,7 @@ namespace BlackJack
                 canHit = false;
             }
         }
-        static void Stay(bool canHit, List<string> deck, string hidden, int yourSum, int yourAceCount, int dealerSum, int dealerAceCount)
+        static void Stay(bool canHit, List<string> deck, string hidden, int yourSum, int yourAceCount, int dealerSum, int dealerAceCount, int bet)
         {
             dealerSum = reduceAce(dealerSum, dealerAceCount);
             yourSum = reduceAce(yourSum, yourAceCount);
@@ -135,23 +156,24 @@ namespace BlackJack
             string message = "";
             if (yourSum > 21)
             {
-                message = "You Lose!";
+                message = $"You Lose! -{bet} credits!";
             }
             else if (dealerSum > 21)
             {
-                message = "You win!";
+                message = $"You win! +{bet*2}";
             }
             else if (yourSum == dealerSum)
             {
-                message = "Tie";
+                message = "Tie! Nothing lost";
             }
             else if (yourSum > dealerSum)
             {
-                message = "You win!";
+                double bett = bet * 2.5;
+                message = $"You win! +{bett} credits!";
             }
             else if (yourSum < dealerSum)
             {
-                message = "You lose!";
+                message = $"You Lose! -{bet} credits!";
             }
             Console.WriteLine("dealer sum " + dealerSum);
             Console.WriteLine("your sum " + yourSum);
