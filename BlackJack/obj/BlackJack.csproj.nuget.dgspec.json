@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dani\\Pictures\\Camera Roll\\BlackJack\\BlackJack\\BlackJack\\BlackJack.csproj": {}
+    "C:\\Users\\PC\\Pictures\\BlackJack\\BlackJack\\BlackJack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dani\\Pictures\\Camera Roll\\BlackJack\\BlackJack\\BlackJack\\BlackJack.csproj": {
+    "C:\\Users\\PC\\Pictures\\BlackJack\\BlackJack\\BlackJack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dani\\Pictures\\Camera Roll\\BlackJack\\BlackJack\\BlackJack\\BlackJack.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Pictures\\BlackJack\\BlackJack\\BlackJack.csproj",
         "projectName": "BlackJack",
-        "projectPath": "C:\\Users\\Dani\\Pictures\\Camera Roll\\BlackJack\\BlackJack\\BlackJack\\BlackJack.csproj",
-        "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dani\\Pictures\\Camera Roll\\BlackJack\\BlackJack\\BlackJack\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Pictures\\BlackJack\\BlackJack\\BlackJack.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Pictures\\BlackJack\\BlackJack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

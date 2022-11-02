@@ -24,3 +24,16 @@ C:\Users\Dani\Pictures\Camera Roll\BlackJack\BlackJack\BlackJack\obj\Debug\netco
 C:\Users\Dani\Pictures\Camera Roll\BlackJack\BlackJack\BlackJack\obj\Debug\netcoreapp3.1\BlackJack.dll
 C:\Users\Dani\Pictures\Camera Roll\BlackJack\BlackJack\BlackJack\obj\Debug\netcoreapp3.1\BlackJack.pdb
 C:\Users\Dani\Pictures\Camera Roll\BlackJack\BlackJack\BlackJack\obj\Debug\netcoreapp3.1\BlackJack.genruntimeconfig.cache
+C:\Users\PC\Pictures\BlackJack\BlackJack\bin\Debug\netcoreapp3.1\BlackJack.exe
+C:\Users\PC\Pictures\BlackJack\BlackJack\bin\Debug\netcoreapp3.1\BlackJack.deps.json
+C:\Users\PC\Pictures\BlackJack\BlackJack\bin\Debug\netcoreapp3.1\BlackJack.runtimeconfig.json
+C:\Users\PC\Pictures\BlackJack\BlackJack\bin\Debug\netcoreapp3.1\BlackJack.runtimeconfig.dev.json
+C:\Users\PC\Pictures\BlackJack\BlackJack\bin\Debug\netcoreapp3.1\BlackJack.dll
+C:\Users\PC\Pictures\BlackJack\BlackJack\bin\Debug\netcoreapp3.1\BlackJack.pdb
+C:\Users\PC\Pictures\BlackJack\BlackJack\obj\Debug\netcoreapp3.1\BlackJack.csproj.AssemblyReference.cache
+C:\Users\PC\Pictures\BlackJack\BlackJack\obj\Debug\netcoreapp3.1\BlackJack.AssemblyInfoInputs.cache
+C:\Users\PC\Pictures\BlackJack\BlackJack\obj\Debug\netcoreapp3.1\BlackJack.AssemblyInfo.cs
+C:\Users\PC\Pictures\BlackJack\BlackJack\obj\Debug\netcoreapp3.1\BlackJack.csproj.CoreCompileInputs.cache
+C:\Users\PC\Pictures\BlackJack\BlackJack\obj\Debug\netcoreapp3.1\BlackJack.dll
+C:\Users\PC\Pictures\BlackJack\BlackJack\obj\Debug\netcoreapp3.1\BlackJack.pdb
+C:\Users\PC\Pictures\BlackJack\BlackJack\obj\Debug\netcoreapp3.1\BlackJack.genruntimeconfig.cache

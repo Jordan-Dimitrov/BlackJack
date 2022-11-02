@@ -45,7 +45,7 @@ namespace BlackJack
             {
                 for (int j = 0; j < cards.Length; j++)
                 {
-                    deck.Add(cards[j] + " " + types[i]);
+                    deck.Add(cards[j] + "-" + types[i]);
                 }
             }
         }
@@ -110,7 +110,7 @@ namespace BlackJack
         }
         static int GetValue(string hidden)
         {
-            string[] data = hidden.Split(" ");
+            string[] data = hidden.Split("-");
             string value = data[0];
 
             if (value!="2"&&value!="3"&&value!="4"&& value != "5" && value != "6" && value != "7"&& value != "8" && value != "9" && value != "10")
@@ -121,7 +121,10 @@ namespace BlackJack
                 }
                 return 10;
             }
-            return int.Parse(value);
+            else
+            {
+                return int.Parse(value);
+            }
         }
         static int CheckAce(string hidden)
         {
